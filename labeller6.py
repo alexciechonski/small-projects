@@ -4,7 +4,7 @@ import csv
 import os
 
 # save the unlabelled data into a dataframe
-path = '/Users/alexanderciechonski/Desktop/Reddit_copy/saas2.json'
+path = ''
 with open(path, 'r') as f:
     data = json.load(f)
 
